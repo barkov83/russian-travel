@@ -1,0 +1,16 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        row-gap: 32px;
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,17 @@
+.places__place {
+    margin-bottom: 80px;
+}
+
+/* для разрешения 768px */
+@media screen and (max-width: 768px) {
+    .places__place {
+        margin-bottom: 73px;
+    }
+}
+
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .places__place {
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,20 @@
+.cover__content {
+    margin-top: 92px;
+    margin-bottom: 92px;
+}
+
+/* для разрешения 768px */
+@media screen and (max-width: 768px) {
+    .cover__content {
+        margin-top: 90px;
+        margin-bottom: 88px;
+    }
+}
+
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .cover__content {
+        margin-top: 66px;
+        margin-bottom: 64px;
+    }
+}

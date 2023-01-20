@@ -1,0 +1,29 @@
+.intro {
+    margin: 0 auto 92px auto;
+    width: calc(100% - 2*148px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* для разрешения 1024px */
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: calc(100% - 2*48px);
+    }
+}
+
+/* для разрешения 768px */
+@media screen and (max-width: 768px) {
+    .intro {
+        width: calc(100% - 2*24px);
+        margin-bottom: 88px;
+    }
+}
+
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .intro {
+        width: calc(100% - 2*16px);
+        margin-bottom: 64px;
+    }
+}
