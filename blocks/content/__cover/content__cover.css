@@ -1,20 +1,17 @@
-.cover__content {
-    margin-top: 92px;
+.content__cover {
     margin-bottom: 92px;
 }
 
 /* для разрешения 768px */
 @media screen and (max-width: 768px) {
-    .cover__content {
-        margin-top: 90px;
+    .content__cover {
         margin-bottom: 88px;
     }
 }
 
 /* для разрешения 320px */
 @media screen and (max-width: 320px) {
-    .cover__content {
-        margin-top: 66px;
+    .content__cover {
         margin-bottom: 64px;
     }
 }
