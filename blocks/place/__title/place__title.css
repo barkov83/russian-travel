@@ -17,13 +17,14 @@
         font-size: 42px;
         line-height: 46px;
     }
+}
 
-    /* для разрешения 320px */
-    @media screen and (max-width: 320px) {
-        .place__title {
-            margin: 0 auto 32px auto;
-            width: calc(100% - 2*16px);
-            font-size: 32px;
-            line-height: 35px;
-        }
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .place__title {
+        margin: 0 auto 32px auto;
+        width: calc(100% - 2*16px);
+        font-size: 32px;
+        line-height: 35px;
     }
+}

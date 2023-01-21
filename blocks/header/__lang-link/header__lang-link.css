@@ -15,10 +15,6 @@
     opacity: 0.8;
 }
 
-.header__lang-link_active {
-    text-decoration underline;
-}
-
 /* для разрешения 320px */
 @media screen and (max-width: 320px) {
     .header__lang-link {
