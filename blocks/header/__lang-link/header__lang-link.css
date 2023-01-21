@@ -1,14 +1,22 @@
 .header__lang-link {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 18px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    padding-left: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+.header__lang-link_active {
+    text-decoration underline;
 }
 
 /* для разрешения 320px */

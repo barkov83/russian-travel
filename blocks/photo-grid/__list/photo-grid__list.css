@@ -7,3 +7,10 @@
     gap: 16px;
     width: 100%;
 }
+
+/* для разрешения 320px */
+@media screen and (max-width: 320px) {
+    .photo-grid__list {
+        gap: 12px;
+    }
+}

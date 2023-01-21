@@ -9,3 +9,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+/* для разрешения 768px */
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+    }    
+}

@@ -1,7 +1,6 @@
 .footer__link {
     margin: 0;
     padding: 0;
-    display: inline-block;
     list-style: none;
     text-decoration-line: none;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
@@ -10,6 +9,11 @@
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+
+.footer__link:hover {
+opacity: 0.8;
 }
 
 /* для разрешения 320px */

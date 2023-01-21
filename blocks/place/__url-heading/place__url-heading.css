@@ -7,12 +7,12 @@
     font-size: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
 
-/* для разрешения 768px */
+/* для разрешения 320px */
 @media screen and (max-width: 320px) {
     .place__url-heading {
         line-height: 12px;
-        letter-spacing: 2px;
     }
 }

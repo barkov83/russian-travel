@@ -22,8 +22,24 @@
     }
 }
 
-/* для разрешения 320px */
-@media screen and (max-width: 320px) {
+/* для разрешения 576px */
+@media screen and (max-width: 576px) {
+    .place {
+        column-gap: 14px;
+        row-gap: 24px;
+    }
+}
+
+/* для разрешения 500px */
+@media screen and (max-width: 500px) {
+    .place {
+        column-gap: 7px;
+        row-gap: 12px;
+    }
+}
+
+/* для разрешения 485px */
+@media screen and (max-width: 485px) {
     .place {
         display: flex;
         flex-direction: column;

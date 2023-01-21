@@ -11,6 +11,12 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 689px) {
+    .lead__title {
+        font-size: 12vw;
+    }
+}
+
 /* для разрешения 320px */
 @media screen and (max-width: 320px) {
     .lead__title {
