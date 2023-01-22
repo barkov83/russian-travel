@@ -5,7 +5,7 @@
     list-style-type: none;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    width: 100%;
+    width: 100%;    
 }
 
 /* для разрешения 320px */

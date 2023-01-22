@@ -30,14 +30,6 @@
     }
 }
 
-/* для разрешения 500px */
-@media screen and (max-width: 500px) {
-    .place {
-        column-gap: 7px;
-        row-gap: 12px;
-    }
-}
-
 /* для разрешения 485px */
 @media screen and (max-width: 485px) {
     .place {

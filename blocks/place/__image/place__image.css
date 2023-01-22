@@ -19,13 +19,6 @@
     }
 }
 
-/* для разрешения 485px */
-@media screen and (max-width: 485px) {
-    .place__image {
-        width: 44.270833vw;
-    }
-}
-
 /* для разрешения 320px */
 @media screen and (max-width: 320px) {
     .place__image {
